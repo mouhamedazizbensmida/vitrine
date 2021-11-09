@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{{form_start(formpro)}}
+{{form_widget(formpro)}}
+
+<a type="submit" href="{{path('add2')}}"  class="btn btn-danger">Enregistrer</a>
+
+{{form_end(formpro)}}
+
+{% endblock %}
